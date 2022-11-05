@@ -1,0 +1,25 @@
+# directories for large, project-specific files
+cache/*
+!cache/.gitkeep
+runs/*
+!runs/.gitkeep
+data/*
+!data/.gitkeep
+!data/notification_sounds/
+
+# TODO: determine which large models to keep
+models/denoiser/demucs/dns_64.pt
+models/denoiser/demucs/master_64.pt
+models/denoiser/demucs/valentini_nc.pt
+models/speech/deepspeech/deepspeech_librispeech.pt
+
+# miscellaneous
+**/..git/*
+__pycache__/
+.DS_Store
+._.DS_Store
+.ipynb_checkpoints/
+.vscode/
+*.egg-info/
+.pytest_cache
+*.ipynb_checkpoints/
